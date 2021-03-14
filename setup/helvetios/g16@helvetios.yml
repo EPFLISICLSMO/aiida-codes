@@ -1,0 +1,9 @@
+label: "g16"
+description: "GAUSSIAN compiled by SCITAS"
+input_plugin: "gaussian"
+on_computer: true
+remote_abs_path: "/ssoft/spack/external/gaussian/g16-A.03/avx2/g16/g16"
+computer: "helvetios"
+prepend_text: |
+  module load gaussian
+append_text: " "
